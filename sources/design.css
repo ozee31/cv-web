@@ -1,0 +1,76 @@
+/** HELPERS */
+._inline {
+	display: inline;
+}
+
+/** GLOBAL */
+.a_h_section {
+	margin-bottom: 10px;
+}
+
+/** NAVBAR */
+.navbar {
+	border-radius: 0;
+}
+
+/** Experience */
+.experience_title {
+	margin-bottom: 10px;
+}
+.experience_detail {
+	margin: 0px;
+	font-weight: bold;
+}
+.experience_date {
+	margin: 0px;
+}
+.experience_website {
+	margin: 0px;
+}
+.experience_sumary {
+	margin-top: 10px;
+}
+
+/**	
+ *
+ ************************ RESPONSIVE ************************
+ * 
+ */
+
+/** PHONE ONLY */
+@media (max-width: 767px) {
+	
+	/** HELPERS */
+	._text-center-xs {
+		text-align: center;
+	}
+}
+
+/** TABLET ++ */
+@media (min-width: 768px) {
+
+	/** GLOBAL */
+	.a_h_section {
+		margin: 0;
+		text-align: right;
+	}
+}
+
+
+
+
+
+/* section header h3 {
+  margin: 0;
+}
+section > div {
+  border-left: 1px solid #efefef;
+}
+section {
+  min-height: 100px;
+  margin-bottom: 30px;
+}
+section div > h3 {
+  padding: 0;
+  margin: 0;
+} */
